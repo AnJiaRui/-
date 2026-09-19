@@ -1,0 +1,4 @@
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body { margin: 0; background: #1e1e1e; color: #d4d4d4; font: 14px/1.55 Consolas, "Courier New", monospace; }
+.app { min-height: 100%; padding: 28px 16px; background: #1e1e1e; }

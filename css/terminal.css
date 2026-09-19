@@ -1,0 +1,8 @@
+.terminal { width: 100%; max-width: 1080px; min-height: 620px; margin: 0 auto; overflow: hidden; border: 1px solid #3d3d3d; border-radius: 5px; background: #0c0c0c; box-shadow: 0 18px 50px rgba(0, 0, 0, .45); }
+.titlebar { height: 40px; padding: 0 13px; display: flex; align-items: center; background: #252526; color: #d6d6d6; font-family: "Segoe UI", Arial, sans-serif; font-size: 13px; }
+.cmd-icon { width: 17px; height: 17px; margin-right: 9px; display: inline-block; background: #0877d1; color: #fff; text-align: center; font: bold 12px/17px Arial; }
+.title { flex: 1; }
+.window-buttons { display: flex; gap: 18px; color: #aaa; font-family: Arial, sans-serif; }
+.window-buttons span:last-child { color: #f06b6b; }
+.terminal-body { min-height: 580px; padding: 23px 25px 28px; position: relative; outline: 0; }
+.terminal-body.dragging { background: #101c12; }

@@ -1,0 +1,5 @@
+.bottom-bar { min-height: 43px; padding: 8px 12px; display: flex; align-items: center; gap: 8px; border-top: 1px solid #333; background: #181818; font: 12px "Segoe UI", Arial, sans-serif; }
+.bottom-bar button, .bottom-bar select { padding: 5px 9px; border: 1px solid #555; background: #252526; color: #ccc; font: inherit; cursor: pointer; }
+.bottom-bar button:hover { border-color: #9cdcfe; color: #fff; }
+.bottom-bar select { margin-left: auto; }
+#fileInput { display: none; }

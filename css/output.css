@@ -1,0 +1,13 @@
+.line { white-space: pre-wrap; word-break: break-word; }
+.prompt { color: #d4d4d4; }
+.green { color: #6a9955; }
+.cyan { color: #4ec9b0; }
+.yellow { color: #dcdcaa; }
+.gray { color: #808080; }
+.error { color: #f48771; }
+.result { margin: 10px 0 16px; padding-left: 20px; border-left: 2px solid #3f6f44; color: #e8e8e8; white-space: pre-wrap; word-break: break-word; }
+.drop-hint { position: absolute; top: 50%; left: 50%; width: 80%; max-width: 620px; padding: 24px; border: 1px dashed #4c7d53; transform: translate(-50%, -46%); color: #7fba76; text-align: center; pointer-events: none; }
+.dragging .drop-hint { border-color: #9cdcfe; color: #9cdcfe; }
+.drop-hint strong { display: block; margin-bottom: 7px; font-size: 18px; font-weight: normal; }
+.drop-hint small { color: #808080; }
+.has-output .drop-hint { display: none; }
