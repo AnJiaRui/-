@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JinShan OCR</title>
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/terminal.css">
+  <link rel="stylesheet" href="./css/output.css">
+  <link rel="stylesheet" href="./css/controls.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+  <div class="app">
+    <div class="terminal">
+      <div class="titlebar"><span class="cmd-icon">&gt;_</span><span class="title">JinShan OCR - Offline Text Recognition</span><span class="window-buttons"><span>—</span><span>□</span><span>×</span></span></div>
+      <div id="terminalBody" class="terminal-body" tabindex="0">
+        <div id="output">
+          <div class="line green">Microsoft Windows [Version 10.0 / 6.1]</div>
+          <div class="line gray">JinShan OCR Offline Console</div>
+          <div class="line gray">Images are processed locally and never uploaded.</div>
+          <br>
+          <div class="line prompt">C:\JinShan&gt; <span class="cyan">ocr --ready</span></div>
+          <div class="line yellow">Waiting for an image file...</div>
+        </div>
+        <div class="drop-hint"><strong>Drop an image into this window</strong><small>JPG / PNG / WEBP supported · Recognition starts automatically</small></div>
+      </div>
+      <div class="bottom-bar"><button id="chooseButton" type="button">Choose Image</button><button id="copyButton" type="button" disabled>Copy Output</button><button id="saveButton" type="button" disabled>Save TXT</button><select id="language" title="Recognition language"><option value="chi_sim">Simplified Chinese</option><option value="chi_sim+eng">Chinese + English</option><option value="eng">English</option></select><input id="fileInput" type="file" accept="image/*"></div>
+    </div>
+  </div>
+  <script src="./tesseract/tesseract.min.js"></script>
+  <script src="./js/compatibility.js"></script>
+  <script src="./js/core.js"></script>
+  <script src="./js/ocr.js"></script>
+  <script src="./js/upload.js"></script>
+  <script src="./js/actions.js"></script>
+</body>
+</html>
